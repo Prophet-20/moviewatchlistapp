@@ -1,0 +1,61 @@
+import '../models/movie.dart';
+
+// Movie information is separate from presentation. Synopses are original summaries.
+const sampleMovies = <Movie>[
+  Movie(
+    id: "speed_racer",
+    title: "Speed Racer",
+    posterPath: 'assets/images/speed_racer.png',
+    year: 2008,
+    genre: "Action adventure",
+    minutes: 135,
+    cast: [
+      "Emile Hirsch",
+      "Christina Ricci",
+      "John Goodman",
+      "Susan Sarandon",
+      "Matthew Fox",
+    ],
+    synopsis: "Speed Racer dreams of becoming a champion while staying loyal to his family and their independent racing team. When a powerful company tries to recruit him, he discovers that the sport he loves is shaped by corporate corruption. With help from Trixie, his family, and the mysterious Racer X, Speed takes on dangerous rivals to prove that skill and determination can still matter on the track.",
+  ),
+  Movie(
+    id: "cars",
+    title: "Cars",
+    posterPath: 'assets/images/cars.png',
+    year: 2006,
+    genre: "Animation",
+    minutes: 116,
+    cast: ["Owen Wilson", "Paul Newman", "Bonnie Hunt", "Larry the Cable Guy"],
+    synopsis: "Rookie race car Lightning McQueen is focused on winning the Piston Cup and becoming a star. On the way to a championship race, he gets stranded in Radiator Springs, a quiet town along Route 66. While repairing the damage he caused, he meets Sally, Mater, and Doc Hudson. Their friendship challenges his self-centered attitude and helps him discover that success means more than crossing the finish line first.",
+  ),
+  Movie(
+    id: "broly",
+    title: "Dragon Ball Super: Broly",
+    posterPath: 'assets/images/broly.png',
+    year: 2018,
+    genre: "Animated action",
+    minutes: 100,
+    cast: ["Masako Nozawa", "Ryo Horikawa", "Bin Shimada", "Ryusei Nakao"],
+    synopsis: "Goku and Vegeta encounter Broly, a Saiyan whose extraordinary power has developed far from Earth. Frieza brings Broly and his father Paragus into a confrontation rooted in the history of Planet Vegeta. As the battle intensifies, Broly becomes increasingly difficult to control. Goku and Vegeta must push beyond their usual limits while the people around Broly struggle to protect him from those exploiting his strength.",
+  ),
+  Movie(
+    id: 'spirited',
+    title: 'Spirited Away',
+    posterPath: 'assets/images/spirited.png',
+    year: 2001,
+    genre: 'Animation',
+    minutes: 125,
+    cast: ['Rumi Hiiragi', 'Miyu Irino', 'Mari Natsuki', 'Bunta Sugawara'],
+    synopsis: 'Chihiro enters a mysterious spirit world after her family stops at an abandoned-looking attraction. When her parents are transformed, she takes a job in a bathhouse run by the witch Yubaba. With help from Haku and other unexpected friends, she learns to act with courage and compassion. Remembering who she is becomes essential to finding a way home.',
+  ),
+  Movie(
+    id: 'budapest',
+    title: 'The Grand Budapest Hotel',
+    posterPath: 'assets/images/budapest.png',
+    year: 2014,
+    genre: 'Comedy drama',
+    minutes: 99,
+    cast: ['Ralph Fiennes', 'Tony Revolori', 'Saoirse Ronan', 'Adrien Brody'],
+    synopsis: 'Zero, a young lobby boy, becomes the trusted companion of Gustave, the exacting concierge of a famous European hotel. A disputed inheritance and a stolen painting draw them into a fast-moving adventure. Behind the elaborate manners and comic escapes, Zero remembers a friendship and a way of life disrupted by political change.',
+  ),
+];
